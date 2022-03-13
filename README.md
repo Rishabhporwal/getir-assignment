@@ -3,6 +3,10 @@ A RESTful API for fetches the data from a MongoDB collection and return the resu
 
 # How to use the API
 
+ * **API Documentation**
+
+   `https://documenter.getpostman.com/view/853749/UVsJvmc2`
+
  * **URL**
 
    `https://getir-assignment-rishabh.herokuapp.com/filter-data`

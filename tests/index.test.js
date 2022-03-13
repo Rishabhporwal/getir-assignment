@@ -4,17 +4,13 @@ const request = supertest(app);
 const mockData = require("./mockdata.json");
 
 test("Successful request", async () => {
-  const response = await request
-    .post("/filter-data")
-    .send(mockData.request);
+  const response = await request.post("/filter-data").send(mockData.request);
 
   expect(response.statusCode).toBe(200);
 });
 
 test("Successful response Matching", async () => {
-  const response = await request
-    .post("/filter-data")
-    .send(mockData.request);
+  const response = await request.post("/filter-data").send(mockData.request);
 
   expect(response.body).toEqual(mockData.response);
 });

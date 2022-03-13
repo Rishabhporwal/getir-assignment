@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "5ee0deb4-344c-4a98-8084-f1a046c9fc2f",
+		"name": "Getir Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Filter Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"startDate\": \"2016-01-26\",\r\n    \"endDate\": \"2018-02-02\",\r\n    \"minCount\": 2700,\r\n    \"maxCount\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://getir-assignment-rishabh.herokuapp.com/filter-data",
+					"protocol": "https",
+					"host": [
+						"getir-assignment-rishabh",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"filter-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Details (Base URL)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://getir-assignment-rishabh.herokuapp.com",
+					"protocol": "https",
+					"host": [
+						"getir-assignment-rishabh",
+						"herokuapp",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Random URL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://getir-assignment-rishabh.herokuapp.com/api",
+					"protocol": "https",
+					"host": [
+						"getir-assignment-rishabh",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

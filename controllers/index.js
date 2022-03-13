@@ -57,6 +57,11 @@ exports.showDetails = async (req, res) => {
   return res.json({
     msg: "Please refer to below url with required parameters",
     url: "https://getir-assignment-rishabh.herokuapp.com/api/filter-data",
-    parameters: "startDate=[Date] endDate=[Date] minCount=[Integer] maxCount=[Integer]"
-  })
-}
+    parameters:
+      "startDate=[Date] endDate=[Date] minCount=[Integer] maxCount=[Integer]",
+  });
+};
+
+exports.redirectUrl = async (req, res) => {
+  res.redirect("/");
+};

@@ -5,7 +5,7 @@ const mockData = require("./mockdata.json");
 
 test("Successful request", async () => {
   const response = await request
-    .post("/api/filter-data")
+    .post("/filter-data")
     .send(mockData.request);
 
   expect(response.statusCode).toBe(200);
@@ -13,7 +13,7 @@ test("Successful request", async () => {
 
 test("Successful response Matching", async () => {
   const response = await request
-    .post("/api/filter-data")
+    .post("/filter-data")
     .send(mockData.request);
 
   expect(response.body).toEqual(mockData.response);
@@ -21,7 +21,7 @@ test("Successful response Matching", async () => {
 
 test("Get result with no data", async () => {
   const response = await request
-    .post("/api/filter-data")
+    .post("/filter-data")
     .send(mockData.requestwithnodata);
 
   expect(response.body).toEqual(mockData.responsewithnodata);
@@ -29,7 +29,7 @@ test("Get result with no data", async () => {
 
 test("Missing Parameters", async () => {
   const response = await request
-    .post("/api/filter-data")
+    .post("/filter-data")
     .send(mockData.requestmissingparameters);
 
   const parsedResponse = JSON.parse(response.text);

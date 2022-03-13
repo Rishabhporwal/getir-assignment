@@ -50,9 +50,7 @@ A RESTful API for fetching the data from a MongoDB collection and return the res
     }
     
     ```
-
-  OR
-
+    
   * **Code:** 404 RESOURCE NOT FOUND <br />
     **Content:**
       ```

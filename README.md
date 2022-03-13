@@ -1,5 +1,5 @@
 # Getir Backend Assignment
-A RESTful API for fetches the data from a MongoDB collection and return the results.
+A RESTful API for fetching the data from a MongoDB collection and return the results.
 
 # How to use the API
 

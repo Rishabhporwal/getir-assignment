@@ -62,7 +62,7 @@ A RESTful API for fetching the data from a MongoDB collection and return the res
       }
      ```
 
-# Running the API localy 
+# Running the API locally 
 
 ```
 git init https://github.com/Rishabhporwal/getir-assignment
@@ -72,7 +72,7 @@ npm start
 ```
 The API will run on the localhost with port 3000
 
-# Running the API localy with nodemon
+# Running the API locally with nodemon
 ```
 npm run dev
 ```

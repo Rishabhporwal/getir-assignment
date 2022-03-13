@@ -5,7 +5,7 @@ A RESTful API for fetches the data from a MongoDB collection and return the resu
 
  * **URL**
 
-   `https://getir-assignment-rishabh.herokuapp.com/api/filter-data`
+   `https://getir-assignment-rishabh.herokuapp.com/filter-data`
 
 * **Method:**
   

@@ -7,6 +7,6 @@ app.use(bodyParser.json());
 
 const dataRoute = require("./routes");
 
-app.use("/api", dataRoute);
+app.use("/", dataRoute);
 
 module.exports = app;
